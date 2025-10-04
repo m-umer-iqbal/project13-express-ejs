@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <title>Joke API Project</title>
+    <style>
+        body {
+            margin: 20px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            max-width: 200px;
+            gap: 8px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Joke API Project</h1>
+    <h5>Select Joke Type</h5>
+
+    <form action="/" method="post">
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="category" value="Programming" id="Programming">
+            <label class="form-check-label" for="radioDefault1">
+                Programming
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="category" value="Dark" id="Dark">
+            <label class="form-check-label" for="radioDefault1">
+                Dark
+            </label>
+        </div>
+        <div>
+            <button type="submit" class="btn btn-primary">Get Joke</button>
+        </div>
+    </form>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.min.js"
+        integrity="sha384-7qAoOXltbVP82dhxHAUje59V5r2YsVfBafyUDxEdApLPmcdhBPg1DKg1ERo0BZlK"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
