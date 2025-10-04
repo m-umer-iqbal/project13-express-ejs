@@ -9,7 +9,7 @@ app.use(bodyParser.urlencoded({ extended: true }))
 app.use(express.static("public"))
 
 app.get('/', (req, res) => {
-    res.sendFile(__dirname + "/index1.html")
+    res.sendFile(__dirname + "/index.html")
 })
 
 app.post("/", (req, res) => {
